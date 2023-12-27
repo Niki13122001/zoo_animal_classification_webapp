@@ -11,7 +11,7 @@ import streamlit as st
 
 
 
-loaded_model=pickle.load(open("C:/Users/nikitha/Downloads/zoo_animal_webapp/zoo_animal_class_model.sav",'rb'))
+loaded_model=pickle.load(open("zoo_animal_class_model.sav",'rb'))
 
 #creating a function for classification
 def zoo_animal_classification(input_data):
